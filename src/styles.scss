@@ -2,7 +2,7 @@
 @import 'sass/variables';
 @import 'sass/mixins';
 html, body { height: 100%; }
-body { margin: 0; font-family: $text-content, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: $text-content, "Helvetica Neue", sans-serif; color: $light-black }
 h1, h2, h3 {
   font-family: $text-title;
 }

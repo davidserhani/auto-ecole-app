@@ -1,0 +1,19 @@
+@import '../../../sass/variables';
+
+profile-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.profile-full-width {
+  width: 100%;
+}
+
+.mat-raised-button {
+  background-color: $blue;
+}
+
+form {
+  margin: 1.5em;
+}

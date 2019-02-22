@@ -13,4 +13,8 @@ export class EleveService {
   getAllEleves() {
     return this.http.get(this.URL);
   }
+
+  saveEleve(eleve) {
+    return this.http.post(this.URL, eleve);
+  }
 }

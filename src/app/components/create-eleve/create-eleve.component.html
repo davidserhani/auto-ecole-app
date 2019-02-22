@@ -1,0 +1,15 @@
+<form [formGroup]="profileForm" class="profile-form" (ngSubmit)="createEleve()">
+  <mat-form-field class="profile-full-width">
+    <input matInput placeholder="nom" formControlName="nom" required>
+  </mat-form-field>
+  <mat-form-field class="profile-full-width">
+    <input matInput placeholder="prenom" formControlName="prenom" required>
+  </mat-form-field>
+  <mat-form-field class="profile-full-width">
+    <input matInput placeholder="date de naissance" formControlName="dateDeNaissance">
+  </mat-form-field>
+  <mat-form-field class="profile-full-width">
+    <input matInput placeholder="ville" formControlName="ville" required>
+  </mat-form-field>
+  <button mat-raised-button color="primary" type="submit" [disabled]="!profileForm.valid">Valider</button>
+</form>
