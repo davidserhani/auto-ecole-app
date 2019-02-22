@@ -6,6 +6,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EleveListeComponent } from './components/eleve-liste/eleve-liste.component';
 import { EleveCardComponent } from './components/eleve-card/eleve-card.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+// import Material
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,9 @@ import { EleveCardComponent } from './components/eleve-card/eleve-card.component
   imports: [
     BrowserModule,
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
